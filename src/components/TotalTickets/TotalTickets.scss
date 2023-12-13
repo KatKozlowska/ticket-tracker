@@ -1,0 +1,16 @@
+@use "../../assets/variables" as *;
+
+
+.total {
+    &__container{
+        background-color: $colour-3;
+        padding: 1px;
+        color: $primary-colour;
+    }
+}
+
+
+
+
+
+

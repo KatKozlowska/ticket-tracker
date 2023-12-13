@@ -1,0 +1,14 @@
+@use "../../assets/variables" as *;
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: $colour-3;
+   
+}
+.nav__heading {
+    grid-column: 3;
+    font-size: 30px;
+    color:$primary-colour;
+}
+

@@ -1,0 +1,60 @@
+@use "./assets/variables" as *;
+
+*{  
+    text-align: center;
+    font-family: $font;
+};
+
+
+.search__container{
+    display: flex;
+    justify-content: center;
+    height:50px;
+    margin:15px;
+    background-color: $primary-colour;
+
+
+}
+p{
+    padding:0 10px;
+}
+
+input{
+    display: flex;
+    align-self: center;
+    height:20px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:$tablet-breaking-point) {
+
+
+    .card__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        place-content: center;
+        border-radius: 5px;
+        padding: 30px;
+    
+ }
+}
+
+
+@media screen and (min-width:$laptop-breaking-point) {
+
+    .card__container {
+        grid-template-columns: repeat(5, 1fr);  
+ }
+}
+
+@media screen and (min-width:1440px) {
+
+    .card__container {
+    border-radius: 5px;
+    margin:30px 60px;
+    padding: 30px;
+    place-items: center;
+}
+}
+

@@ -9,27 +9,48 @@
 .search__container{
     display: flex;
     justify-content: center;
-    height:50px;
-    margin:15px;
+    border-radius: 5px;;
+    height:70px;
+    margin:15px 8px ;
     background-color: $primary-colour;
 
 
 }
 p{
+    display: flex;
+align-self: center;
     padding:0 10px;
+    height:20px;
+  
 }
 
 input{
     display: flex;
     align-self: center;
     height:20px;
+    width:100px;
+    margin: 0 10px;
     &:hover{
         cursor: pointer;
     }
 }
 @media screen and (min-width:$tablet-breaking-point) {
 
+    .search__container{
+        display: flex;
+        justify-content: center;
+        height:50px;
+        margin:15px;
+        background-color: $primary-colour;
+    
+    
+    }
 
+    input{
+        width:150px;
+        
+      
+    }
     .card__container {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 

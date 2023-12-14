@@ -2,7 +2,6 @@
 
 import team from './data/employees';
 import "./App.scss"
-import CardContainer from './components/CardContainer/CardContainer';
 import Nav from './components/Nav/Nav';
 import SearchTeam from './components/SearchBoxContainer/SearchBoxContainer';
 

@@ -3,8 +3,6 @@ import EmployeeCard from "../EmpolyeeCard/EmployeeCard";
 import { useState } from "react";
 import Team from "../../data/types";
 import TotalTickets from "../TotalTickets/TotalTickets";
-import "../CardContainer/CardContainer.scss"
-
 
 
 type CardProps = {
